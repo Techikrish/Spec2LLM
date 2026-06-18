@@ -10,7 +10,7 @@ readme = "readme_pypi.md"
 license = {text = "MIT"}
 requires-python = ">=3.9"
 authors = [
-    {name = "Krishna Fattepurkar", email = "krishna@example.com"},
+    {name = "TechiKrish", email = "techikrish95@gmail.com"},
 ]
 keywords = ["llm", "ai", "gpu", "hardware", "recommendation", "ollama"]
 classifiers = [
