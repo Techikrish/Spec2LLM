@@ -1,0 +1,700 @@
+[
+  {
+    "id": "llama-3.1-8b-q4",
+    "name": "Llama 3.1 8B (Q4)",
+    "params": "8B",
+    "quant": "Q4_K_M",
+    "vram_gb": 6,
+    "ram_gb": 8,
+    "storage_gb": 4.7,
+    "gpu_tier": "consumer",
+    "source": "ollama",
+    "tags": [
+      "general",
+      "chat",
+      "fast"
+    ],
+    "ollama_tag": "llama3.1:8b",
+    "hf_id": "meta-llama/Llama-3.1-8B"
+  },
+  {
+    "id": "llama-3.1-8b-q8",
+    "name": "Llama 3.1 8B (Q8)",
+    "params": "8B",
+    "quant": "Q8_0",
+    "vram_gb": 10,
+    "ram_gb": 12,
+    "storage_gb": 8.5,
+    "gpu_tier": "consumer",
+    "source": "ollama",
+    "tags": [
+      "general",
+      "chat",
+      "quality"
+    ],
+    "ollama_tag": "llama3.1:8b",
+    "hf_id": "meta-llama/Llama-3.1-8B"
+  },
+  {
+    "id": "llama-3.1-70b-q4",
+    "name": "Llama 3.1 70B (Q4)",
+    "params": "70B",
+    "quant": "Q4_K_M",
+    "vram_gb": 40,
+    "ram_gb": 48,
+    "storage_gb": 40,
+    "gpu_tier": "datacenter",
+    "source": "ollama",
+    "tags": [
+      "general",
+      "chat",
+      "powerful"
+    ],
+    "ollama_tag": "llama3.1:70b"
+  },
+  {
+    "id": "llama-3.1-405b-q4",
+    "name": "Llama 3.1 405B (Q4)",
+    "params": "405B",
+    "quant": "Q4_K_M",
+    "vram_gb": 230,
+    "ram_gb": 256,
+    "storage_gb": 230,
+    "gpu_tier": "datacenter",
+    "source": "ollama",
+    "tags": [
+      "general",
+      "chat",
+      "cutting-edge"
+    ],
+    "ollama_tag": "llama3.1:405b"
+  },
+  {
+    "id": "llama-3.2-3b-q4",
+    "name": "Llama 3.2 3B (Q4)",
+    "params": "3B",
+    "quant": "Q4_K_M",
+    "vram_gb": 2.5,
+    "ram_gb": 4,
+    "storage_gb": 2.0,
+    "gpu_tier": "consumer",
+    "source": "ollama",
+    "tags": [
+      "general",
+      "chat",
+      "lightweight"
+    ],
+    "ollama_tag": "llama3.2:3b"
+  },
+  {
+    "id": "llama-3.2-1b-q4",
+    "name": "Llama 3.2 1B (Q4)",
+    "params": "1B",
+    "quant": "Q4_K_M",
+    "vram_gb": 1,
+    "ram_gb": 2,
+    "storage_gb": 0.8,
+    "gpu_tier": "consumer",
+    "source": "ollama",
+    "tags": [
+      "general",
+      "chat",
+      "tiny"
+    ],
+    "ollama_tag": "llama3.2:1b"
+  },
+  {
+    "id": "mistral-7b-q4",
+    "name": "Mistral 7B (Q4)",
+    "params": "7B",
+    "quant": "Q4_K_M",
+    "vram_gb": 5,
+    "ram_gb": 8,
+    "storage_gb": 4.1,
+    "gpu_tier": "consumer",
+    "source": "ollama",
+    "tags": [
+      "general",
+      "chat",
+      "fast"
+    ],
+    "ollama_tag": "mistral:7b"
+  },
+  {
+    "id": "mixtral-8x7b-q4",
+    "name": "Mixtral 8x7B (Q4)",
+    "params": "47B",
+    "quant": "Q4_K_M",
+    "vram_gb": 26,
+    "ram_gb": 32,
+    "storage_gb": 26,
+    "gpu_tier": "prosumer",
+    "source": "ollama",
+    "tags": [
+      "general",
+      "chat",
+      "powerful",
+      "moe"
+    ],
+    "ollama_tag": "mixtral:8x7b"
+  },
+  {
+    "id": "mistral-nemo-12b-q4",
+    "name": "Mistral Nemo 12B (Q4)",
+    "params": "12B",
+    "quant": "Q4_K_M",
+    "vram_gb": 8,
+    "ram_gb": 10,
+    "storage_gb": 7.0,
+    "gpu_tier": "consumer",
+    "source": "ollama",
+    "tags": [
+      "general",
+      "chat",
+      "quality"
+    ],
+    "ollama_tag": "mistral-nemo:12b"
+  },
+  {
+    "id": "gemma-2-2b-q4",
+    "name": "Gemma 2 2B (Q4)",
+    "params": "2B",
+    "quant": "Q4_K_M",
+    "vram_gb": 1.8,
+    "ram_gb": 3,
+    "storage_gb": 1.5,
+    "gpu_tier": "consumer",
+    "source": "ollama",
+    "tags": [
+      "general",
+      "chat",
+      "lightweight"
+    ],
+    "ollama_tag": "gemma2:2b"
+  },
+  {
+    "id": "gemma-2-9b-q4",
+    "name": "Gemma 2 9B (Q4)",
+    "params": "9B",
+    "quant": "Q4_K_M",
+    "vram_gb": 6.5,
+    "ram_gb": 8,
+    "storage_gb": 5.3,
+    "gpu_tier": "consumer",
+    "source": "ollama",
+    "tags": [
+      "general",
+      "chat",
+      "quality"
+    ],
+    "ollama_tag": "gemma2:9b"
+  },
+  {
+    "id": "gemma-2-27b-q4",
+    "name": "Gemma 2 27B (Q4)",
+    "params": "27B",
+    "quant": "Q4_K_M",
+    "vram_gb": 17,
+    "ram_gb": 20,
+    "storage_gb": 16,
+    "gpu_tier": "prosumer",
+    "source": "ollama",
+    "tags": [
+      "general",
+      "chat",
+      "powerful"
+    ],
+    "ollama_tag": "gemma2:27b"
+  },
+  {
+    "id": "phi-3-mini-4k-q4",
+    "name": "Phi-3 Mini 3.8B (Q4)",
+    "params": "3.8B",
+    "quant": "Q4_K_M",
+    "vram_gb": 3,
+    "ram_gb": 4,
+    "storage_gb": 2.3,
+    "gpu_tier": "consumer",
+    "source": "ollama",
+    "tags": [
+      "general",
+      "chat",
+      "lightweight",
+      "microsoft"
+    ],
+    "ollama_tag": "phi3:mini"
+  },
+  {
+    "id": "phi-3-medium-14b-q4",
+    "name": "Phi-3 Medium 14B (Q4)",
+    "params": "14B",
+    "quant": "Q4_K_M",
+    "vram_gb": 9,
+    "ram_gb": 12,
+    "storage_gb": 7.5,
+    "gpu_tier": "consumer",
+    "source": "ollama",
+    "tags": [
+      "general",
+      "chat",
+      "quality",
+      "microsoft"
+    ],
+    "ollama_tag": "phi3:medium"
+  },
+  {
+    "id": "phi-3.5-mini-q4",
+    "name": "Phi-3.5 Mini 3.8B (Q4)",
+    "params": "3.8B",
+    "quant": "Q4_K_M",
+    "vram_gb": 3,
+    "ram_gb": 4,
+    "storage_gb": 2.3,
+    "gpu_tier": "consumer",
+    "source": "ollama",
+    "tags": [
+      "general",
+      "chat",
+      "lightweight",
+      "microsoft"
+    ],
+    "ollama_tag": "phi3.5:mini"
+  },
+  {
+    "id": "qwen-2.5-7b-q4",
+    "name": "Qwen 2.5 7B (Q4)",
+    "params": "7B",
+    "quant": "Q4_K_M",
+    "vram_gb": 5,
+    "ram_gb": 7,
+    "storage_gb": 4.4,
+    "gpu_tier": "consumer",
+    "source": "ollama",
+    "tags": [
+      "general",
+      "chat",
+      "fast",
+      "multilingual"
+    ],
+    "ollama_tag": "qwen2.5:7b"
+  },
+  {
+    "id": "qwen-2.5-32b-q4",
+    "name": "Qwen 2.5 32B (Q4)",
+    "params": "32B",
+    "quant": "Q4_K_M",
+    "vram_gb": 19,
+    "ram_gb": 24,
+    "storage_gb": 18,
+    "gpu_tier": "prosumer",
+    "source": "ollama",
+    "tags": [
+      "general",
+      "chat",
+      "powerful",
+      "multilingual"
+    ],
+    "ollama_tag": "qwen2.5:32b"
+  },
+  {
+    "id": "qwen-2.5-72b-q4",
+    "name": "Qwen 2.5 72B (Q4)",
+    "params": "72B",
+    "quant": "Q4_K_M",
+    "vram_gb": 42,
+    "ram_gb": 48,
+    "storage_gb": 41,
+    "gpu_tier": "datacenter",
+    "source": "ollama",
+    "tags": [
+      "general",
+      "chat",
+      "cutting-edge",
+      "multilingual"
+    ],
+    "ollama_tag": "qwen2.5:72b"
+  },
+  {
+    "id": "qwen-2.5-coder-7b-q4",
+    "name": "Qwen 2.5 Coder 7B (Q4)",
+    "params": "7B",
+    "quant": "Q4_K_M",
+    "vram_gb": 5,
+    "ram_gb": 7,
+    "storage_gb": 4.4,
+    "gpu_tier": "consumer",
+    "source": "ollama",
+    "tags": [
+      "code",
+      "fast"
+    ],
+    "ollama_tag": "qwen2.5-coder:7b"
+  },
+  {
+    "id": "qwen-2.5-coder-32b-q4",
+    "name": "Qwen 2.5 Coder 32B (Q4)",
+    "params": "32B",
+    "quant": "Q4_K_M",
+    "vram_gb": 19,
+    "ram_gb": 24,
+    "storage_gb": 18,
+    "gpu_tier": "prosumer",
+    "source": "ollama",
+    "tags": [
+      "code",
+      "powerful"
+    ],
+    "ollama_tag": "qwen2.5-coder:32b"
+  },
+  {
+    "id": "deepseek-v2-16b-q4",
+    "name": "DeepSeek V2 16B (Q4)",
+    "params": "16B",
+    "quant": "Q4_K_M",
+    "vram_gb": 10,
+    "ram_gb": 12,
+    "storage_gb": 9.0,
+    "gpu_tier": "consumer",
+    "source": "ollama",
+    "tags": [
+      "general",
+      "chat",
+      "quality",
+      "reasoning"
+    ],
+    "ollama_tag": "deepseek-v2:16b"
+  },
+  {
+    "id": "deepseek-coder-v2-16b-q4",
+    "name": "DeepSeek Coder V2 16B (Q4)",
+    "params": "16B",
+    "quant": "Q4_K_M",
+    "vram_gb": 10,
+    "ram_gb": 12,
+    "storage_gb": 9.0,
+    "gpu_tier": "consumer",
+    "source": "ollama",
+    "tags": [
+      "code",
+      "quality"
+    ],
+    "ollama_tag": "deepseek-coder-v2:16b"
+  },
+  {
+    "id": "codellama-7b-q4",
+    "name": "CodeLlama 7B (Q4)",
+    "params": "7B",
+    "quant": "Q4_K_M",
+    "vram_gb": 5,
+    "ram_gb": 7,
+    "storage_gb": 3.8,
+    "gpu_tier": "consumer",
+    "source": "ollama",
+    "tags": [
+      "code"
+    ],
+    "ollama_tag": "codellama:7b"
+  },
+  {
+    "id": "codellama-34b-q4",
+    "name": "CodeLlama 34B (Q4)",
+    "params": "34B",
+    "quant": "Q4_K_M",
+    "vram_gb": 20,
+    "ram_gb": 24,
+    "storage_gb": 19,
+    "gpu_tier": "prosumer",
+    "source": "ollama",
+    "tags": [
+      "code",
+      "powerful"
+    ],
+    "ollama_tag": "codellama:34b"
+  },
+  {
+    "id": "starcoder2-7b-q4",
+    "name": "StarCoder2 7B (Q4)",
+    "params": "7B",
+    "quant": "Q4_K_M",
+    "vram_gb": 5,
+    "ram_gb": 7,
+    "storage_gb": 3.8,
+    "gpu_tier": "consumer",
+    "source": "ollama",
+    "tags": [
+      "code"
+    ],
+    "ollama_tag": "starcoder2:7b"
+  },
+  {
+    "id": "starcoder2-15b-q4",
+    "name": "StarCoder2 15B (Q4)",
+    "params": "15B",
+    "quant": "Q4_K_M",
+    "vram_gb": 9,
+    "ram_gb": 12,
+    "storage_gb": 8.5,
+    "gpu_tier": "consumer",
+    "source": "ollama",
+    "tags": [
+      "code",
+      "quality"
+    ],
+    "ollama_tag": "starcoder2:15b"
+  },
+  {
+    "id": "command-r-35b-q4",
+    "name": "Command R 35B (Q4)",
+    "params": "35B",
+    "quant": "Q4_K_M",
+    "vram_gb": 21,
+    "ram_gb": 24,
+    "storage_gb": 20,
+    "gpu_tier": "prosumer",
+    "source": "ollama",
+    "tags": [
+      "general",
+      "chat",
+      "powerful",
+      "rag"
+    ],
+    "ollama_tag": "command-r:35b"
+  },
+  {
+    "id": "command-r-7b-q4",
+    "name": "Command R 7B (Q4)",
+    "params": "7B",
+    "quant": "Q4_K_M",
+    "vram_gb": 5,
+    "ram_gb": 7,
+    "storage_gb": 4.1,
+    "gpu_tier": "consumer",
+    "source": "ollama",
+    "tags": [
+      "general",
+      "chat",
+      "fast",
+      "rag"
+    ],
+    "ollama_tag": "command-r:7b"
+  },
+  {
+    "id": "yi-34b-q4",
+    "name": "Yi 34B (Q4)",
+    "params": "34B",
+    "quant": "Q4_K_M",
+    "vram_gb": 20,
+    "ram_gb": 24,
+    "storage_gb": 19,
+    "gpu_tier": "prosumer",
+    "source": "ollama",
+    "tags": [
+      "general",
+      "chat",
+      "powerful",
+      "multilingual"
+    ],
+    "ollama_tag": "yi:34b"
+  },
+  {
+    "id": "falcon2-11b-q4",
+    "name": "Falcon 2 11B (Q4)",
+    "params": "11B",
+    "quant": "Q4_K_M",
+    "vram_gb": 7,
+    "ram_gb": 9,
+    "storage_gb": 6.5,
+    "gpu_tier": "consumer",
+    "source": "ollama",
+    "tags": [
+      "general",
+      "chat"
+    ],
+    "ollama_tag": "falcon2:11b"
+  },
+  {
+    "id": "nomic-embed-text",
+    "name": "Nomic Embed Text (embeddings)",
+    "params": "137M",
+    "quant": "Q4",
+    "vram_gb": 0.5,
+    "ram_gb": 1,
+    "storage_gb": 0.3,
+    "gpu_tier": "consumer",
+    "source": "ollama",
+    "tags": [
+      "embeddings",
+      "lightweight"
+    ],
+    "ollama_tag": "nomic-embed-text"
+  },
+  {
+    "id": "llava-7b-q4",
+    "name": "LLaVA 7B (Q4)",
+    "params": "7B",
+    "quant": "Q4_K_M",
+    "vram_gb": 6,
+    "ram_gb": 8,
+    "storage_gb": 4.5,
+    "gpu_tier": "consumer",
+    "source": "ollama",
+    "tags": [
+      "vision",
+      "multimodal"
+    ],
+    "ollama_tag": "llava:7b"
+  },
+  {
+    "id": "llava-13b-q4",
+    "name": "LLaVA 13B (Q4)",
+    "params": "13B",
+    "quant": "Q4_K_M",
+    "vram_gb": 9,
+    "ram_gb": 12,
+    "storage_gb": 7.5,
+    "gpu_tier": "consumer",
+    "source": "ollama",
+    "tags": [
+      "vision",
+      "multimodal",
+      "quality"
+    ],
+    "ollama_tag": "llava:13b"
+  },
+  {
+    "id": "bakllava-7b-q4",
+    "name": "BakLLaVA 7B (Q4)",
+    "params": "7B",
+    "quant": "Q4_K_M",
+    "vram_gb": 6,
+    "ram_gb": 8,
+    "storage_gb": 4.5,
+    "gpu_tier": "consumer",
+    "source": "ollama",
+    "tags": [
+      "vision",
+      "multimodal"
+    ],
+    "ollama_tag": "bakllava:7b"
+  },
+  {
+    "id": "phi-3-vision-q4",
+    "name": "Phi-3 Vision 4.2B (Q4)",
+    "params": "4.2B",
+    "quant": "Q4_K_M",
+    "vram_gb": 3.5,
+    "ram_gb": 5,
+    "storage_gb": 3.0,
+    "gpu_tier": "consumer",
+    "source": "ollama",
+    "tags": [
+      "vision",
+      "multimodal",
+      "lightweight",
+      "microsoft"
+    ],
+    "ollama_tag": "phi3:vision"
+  },
+  {
+    "id": "deepseek-r1-7b-q4",
+    "name": "DeepSeek R1 7B (Q4)",
+    "params": "7B",
+    "quant": "Q4_K_M",
+    "vram_gb": 5,
+    "ram_gb": 7,
+    "storage_gb": 4.4,
+    "gpu_tier": "consumer",
+    "source": "ollama",
+    "tags": [
+      "reasoning",
+      "chat",
+      "fast"
+    ],
+    "ollama_tag": "deepseek-r1:7b"
+  },
+  {
+    "id": "deepseek-r1-14b-q4",
+    "name": "DeepSeek R1 14B (Q4)",
+    "params": "14B",
+    "quant": "Q4_K_M",
+    "vram_gb": 9,
+    "ram_gb": 12,
+    "storage_gb": 8.0,
+    "gpu_tier": "consumer",
+    "source": "ollama",
+    "tags": [
+      "reasoning",
+      "chat",
+      "quality"
+    ],
+    "ollama_tag": "deepseek-r1:14b"
+  },
+  {
+    "id": "deepseek-r1-32b-q4",
+    "name": "DeepSeek R1 32B (Q4)",
+    "params": "32B",
+    "quant": "Q4_K_M",
+    "vram_gb": 19,
+    "ram_gb": 24,
+    "storage_gb": 18,
+    "gpu_tier": "prosumer",
+    "source": "ollama",
+    "tags": [
+      "reasoning",
+      "chat",
+      "powerful"
+    ],
+    "ollama_tag": "deepseek-r1:32b"
+  },
+  {
+    "id": "llama-3.2-11b-vision-q4",
+    "name": "Llama 3.2 11B Vision (Q4)",
+    "params": "11B",
+    "quant": "Q4_K_M",
+    "vram_gb": 8,
+    "ram_gb": 10,
+    "storage_gb": 6.5,
+    "gpu_tier": "consumer",
+    "source": "ollama",
+    "tags": [
+      "vision",
+      "multimodal",
+      "quality"
+    ],
+    "ollama_tag": "llama3.2-vision:11b"
+  },
+  {
+    "id": "llama-3.2-90b-vision-q4",
+    "name": "Llama 3.2 90B Vision (Q4)",
+    "params": "90B",
+    "quant": "Q4_K_M",
+    "vram_gb": 52,
+    "ram_gb": 64,
+    "storage_gb": 55,
+    "gpu_tier": "datacenter",
+    "source": "ollama",
+    "tags": [
+      "vision",
+      "multimodal",
+      "cutting-edge"
+    ],
+    "ollama_tag": "llama3.2-vision:90b"
+  },
+  {
+    "id": "solar-10.7b-q4",
+    "name": "Solar 10.7B (Q4)",
+    "params": "10.7B",
+    "quant": "Q4_K_M",
+    "vram_gb": 7,
+    "ram_gb": 9,
+    "storage_gb": 6.2,
+    "gpu_tier": "consumer",
+    "source": "ollama",
+    "tags": [
+      "general",
+      "chat",
+      "quality"
+    ],
+    "ollama_tag": "solar:10.7b"
+  }
+]

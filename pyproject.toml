@@ -1,0 +1,52 @@
+[build-system]
+requires = ["setuptools>=68.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "spec2llm"
+version = "0.1.0"
+description = "Find the best LLMs for your hardware specs"
+readme = "readme_pypi.md"
+license = {text = "MIT"}
+requires-python = ">=3.9"
+authors = [
+    {name = "Krishna Fattepurkar", email = "krishna@example.com"},
+]
+keywords = ["llm", "ai", "gpu", "hardware", "recommendation", "ollama"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Environment :: Console",
+    "Intended Audience :: Developers",
+    "Intended Audience :: Science/Research",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+    "Topic :: System :: Hardware",
+    "Topic :: Utilities",
+]
+dependencies = [
+    "typer>=0.12",
+    "rich>=13.0",
+    "psutil>=5.9",
+    "nvidia-ml-py>=12",
+    "httpx>=0.27",
+]
+
+[project.urls]
+Homepage = "https://github.com/Techikrish/Spec2LLM"
+Repository = "https://github.com/Techikrish/Spec2LLM"
+BugTracker = "https://github.com/Techikrish/Spec2LLM/issues"
+
+[project.scripts]
+spec2llm = "spec2llm.cli.app:app"
+
+[tool.setuptools.packages.find]
+include = ["spec2llm*"]
+
+[tool.setuptools.package-data]
+"spec2llm" = ["data/*.json"]
